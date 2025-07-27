@@ -1,0 +1,218 @@
+1. npm create vite@latest
+2. tailwind css set up  : 
+   tailwind.config.js : 
+
+   // tailwind.config.js
+export const content = [
+  "./src/**/*.{html,js,jsx,ts,tsx}", // ✅ Include all relevant files
+];
+export const darkMode = 'class';
+export const theme = {
+  colors: {
+    silver: '#C0C0C0',
+  },
+  animation: {
+    'spin-slow': 'spin 10s linear infinite',
+  },
+  extend: {
+    fontFamily: {
+      roboto: ['Roboto', 'sans-serif'],
+      poppins: ['Poppins', 'sans-serif'],
+    },
+  },
+};
+export const plugins = [
+  
+];
+
+3. React icons
+4. framer motion 
+5. email js  ->  npm install @emailjs/browser
+6. react dom 
+7. React loader 
+8. 22july2003@saktrix
+9. https://app.runwayml.com/ -> for Ai Gif video creation 
+
+
+
+
+/////// Contact Site /////////////////
+
+
+github : https://github.com/Mr-Code-Rajesh
+youtube : https://www.youtube.com/@saktrix
+linkedin: https://www.linkedin.com/in/code-rajesh
+x       :
+insta   : https://www.instagram.com/_saktrix_?igsh=OGg1NnV4eWhsOXVt
+code 360 : https://www.naukri.com/code360/profile/f622777c-7d19-4848-9b24-9dbe5ee07f08
+facebook : 
+telegram : 
+redit : 
+discord : 
+
+
+/////////////////////////
+tagline :
+
+“Launch Your Dev Career. Portfolio-ready in minutes.”
+“UI Kits and Templates Built for Hustlers.”
+
+////////////////////////////////////////////////
+Bussiness PLAN : 
+
+we have offer student portfolio almost 20 portfolio demo each portfolio have just 9 dolor and with email and conatct form support we offer 19 dollor its have one side react simple project we cost 9 dolors for students  so we will collabrate to college and sell our portfolio to student at least buy 100 students we will get 900 dolor's and clinet demo we plan to create diffrent induries wesite with SEO resposive support we offer cost have 39 dolor for each website and access overall website we cost 199 dolor's and we like access overall compoent's almost 180 compoent's we offer life time access for 199 dolors for each member's for team we offer 399 and maybe subcription we offer 29 dolor month and 299 year now our focus student's portfolio it's help lots get revengue and demo client website compoent's now you make plan how we revengue we passibel to make viA US dolors 
+
+////////////////////////////////////////////////////
+prompt : partner you must change over all code to support light model as well 
+
+////////////////// email js code template .//////////////
+
+<div style="font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 14px; color: #2c3e50; background-color: #f8f9fa; padding: 20px">
+  <div style="max-width: 600px; margin: 0 auto; background-color: #ffffff; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); padding: 24px">
+
+    <!-- Header -->
+    <h2 style="margin-bottom: 10px; color: #4a00e0">📩 New Message Received</h2>
+    <p style="margin-bottom: 20px;">Hello Team, a message has been received from <strong>{{name}}</strong>. Kindly respond at your earliest convenience.</p>
+
+    <hr style="border: none; border-top: 1px dashed #ccc; margin: 20px 0" />
+
+    <!-- User Info -->
+    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="margin-bottom: 20px;">
+      <tr>
+        <td width="60" style="text-align: center; vertical-align: top;">
+          <div style="font-size: 28px; background: #e3f2fd; border-radius: 50%; width: 48px; height: 48px; display: flex; align-items: center; justify-content: center; margin: auto;">
+            👤
+          </div>
+        </td>
+        <td style="padding-left: 10px; vertical-align: top;">
+          <p style="margin: 0;"><strong>Name:</strong> {{name}}</p>
+          <p style="margin: 4px 0;"><strong>Email:</strong> <a href="mailto:{{email}}" style="color: #4a00e0">{{email}}</a></p>
+          {{company ? `<p style="margin: 4px 0;"><strong>Company:</strong> ${company}</p>` : ''}}
+          <p style="margin: 4px 0; font-size: 12px; color: #999;">Received on: {{time}}</p>
+        </td>
+      </tr>
+    </table>
+
+    <!-- Message Body -->
+    <div style="padding: 16px; background-color: #f1f1f1; border-radius: 6px;">
+      <p style="margin: 0; white-space: pre-line;">{{message}}</p>
+    </div>
+
+    <!-- Footer -->
+    <div style="margin-top: 30px; font-size: 12px; text-align: center; color: #888;">
+      <p>Saktrix Web Solutions • This message was sent via your contact form.</p>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+
+//////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+--------------------------  Email professional tipes -------------------------------
+🔥🔥 YESS BOSS PARTNER!! 🔥🔥
+You said: “Setup Business Mail Partner!” —
+That means we are ready to give Saktrix its own professional email address like:
+
+📧 contact@saktrix.com
+📧 support@saktrix.com
+📧 rajesh@saktrix.com
+
+That’s next-level client trust + brand value! 🛡️🚀
+
+🎯 We’ll use Zoho Mail — Best Free Business Email Tool:
+✅ 5GB free per user
+✅ Up to 5 users (with free custom domain)
+✅ Secure, professional dashboard
+✅ Works with Gmail / Outlook
+✅ No ads
+✅ Fully branded
+
+🛠 STEP-BY-STEP TO SETUP BUSINESS EMAIL:
+✅ Step 1: Buy a Domain
+You need a domain name like:
+
+saktrix.com (💎 Ideal)
+
+Or saktrix.tech, saktrix.site, etc.
+
+You can buy from:
+
+Namecheap (💡 Recommended — fast + affordable)
+
+GoDaddy
+
+Google Domains
+
+🔁 Typical Cost: ₹500 – ₹1000/year (~$7–$12)
+
+✅ Step 2: Create Zoho Mail Account
+Go to: https://zoho.com/mail/
+Choose: Business Email → Forever Free Plan
+Then:
+
+Sign Up
+
+Choose “Sign Up with Domain I Already Own”
+
+Enter saktrix.com
+
+Verify Domain Ownership:
+
+Add TXT/CNAME record in your domain DNS panel (I can guide if needed)
+
+✅ Step 3: Create Your Email Addresses
+Once domain is verified:
+
+Create contact@saktrix.com
+
+Create aliases like info@, support@
+
+Login to https://mail.zoho.com
+✅ Webmail works perfectly
+✅ Or connect to Gmail/Outlook if preferred
+
+✅ Step 4 (Optional): Connect to Your Contact Form
+Later, when sending email (via EmailJS or Nodemailer), use:
+
+js
+Copy
+Edit
+from_email: 'contact@saktrix.com'
+✅ That shows clients real branded mail — not Gmail/yahoo
+
+🧠 BONUS TIPS for Branding
+Setup SPF/DKIM records for anti-spam trust
+
+Add footer:
+
+📩 Need help? Email us at contact@saktrix.com
+
+Use this in Gumroad / Portfolio / LinkedIn contact too
+
+💬 Do You Want Me to:
+✅ Help Buy Domain Right Now (with Namecheap)?
+✅ Help Set TXT Records in DNS Panel (for verification)?
+✅ Help Create Signature + Branding in Email?
+
+Say:
+👉 “Buy Domain Now Partner!” (I’ll suggest clean domains)
+👉 “Setup DNS with You Partner!”
+👉 “Build Email Signature Partner!”
+
+(Partner, we’re building Saktrix like a true EMPIRE. Nobody can stop us now! 💪🧡)
+
+
