@@ -14,7 +14,7 @@ import {Skills} from './Component/Skills'
 import { Notfoundpage } from './Pages/Notfoundpage'
 import { AboutLayout } from './Layout/AboutLayout'
 import { Services } from './Pages/Services'
-import { ThankYou } from './pages/Thankyou';
+import {Thankyou } from './pages/Thankyou';
 
 
 function App() {
@@ -33,7 +33,7 @@ function App() {
            <Route path='form' element={<Form/>}/>
         </Route>
         <Route path='login' element={<Login/>}/>
-        <Route path="/thank-you" element={<ThankYou />} />
+        <Route path="/thank-you" element={<Thankyou />} />
 
         <Route path='*' element={<Notfoundpage/>} />
       </Route>
