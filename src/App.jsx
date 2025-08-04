@@ -14,7 +14,7 @@ import {Skills} from './Component/Skills'
 import { Notfoundpage } from './Pages/Notfoundpage'
 import { AboutLayout } from './Layout/AboutLayout'
 import { Services } from './Pages/Services'
-import { ThankYou } from './pages/ThankYou';
+import { ThankYou } from './pages/Thankyou';
 
 
 function App() {
