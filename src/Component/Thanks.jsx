@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom'; // Only if you're using react-router
 import { FaCheckCircle } from 'react-icons/fa'; 
 
-export const Thankyou = () => {
+export default function Thanks() {
   return (
     <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-black via-gray-900 to-gray-950 px-6">
       <div className="text-center space-y-8">

@@ -19,7 +19,7 @@ export const SaktrixUISection = () => {
           🚀 <span className="text-transparent bg-clip-text saktrix-aurora-text">Saktrix UI – A Powerful UI Library in Progress</span>
         </motion.h2>
 
-        <motion.p
+        <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
@@ -29,7 +29,7 @@ export const SaktrixUISection = () => {
             <p>We're building <span className=" dark:text-pink-500 text-blue-500">Saktrix UI</span> — a developer-first, design-rich component library made with React, Tailwind CSS, and Framer Motion. With over <span className=" dark:text-pink-500 text-blue-500">180+</span> ultra-level components, Saktrix UI is designed to speed up your workflow and make your projects look stunning by default. </p>
             <p> We’re currently working hard to finish development. Here's a quick video walkthrough of what’s coming soon! </p>
            </div>
-         </motion.p>
+         </motion.div>
 
 
          {/* Watch Demo Button */}

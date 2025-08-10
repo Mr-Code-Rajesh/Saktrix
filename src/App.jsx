@@ -15,7 +15,7 @@ import { Notfoundpage } from './Pages/Notfoundpage'
 import { AboutLayout } from './Layout/AboutLayout'
 import { Services } from './Pages/Services'
 // import {Thankyou } from './pages/Thankyou';
-import {Thanks} from './Component/Thanks'
+import Thanks from './Component/Thanks'
 
 
 function App() {
