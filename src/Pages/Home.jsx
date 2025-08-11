@@ -5,12 +5,8 @@ import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
-// import { SkillsSectionPage } from '../Component/HomeInfo';
-import { GradientCard } from '../Component/HomeInfo';
 import together from '../assets/bg/together1.jpg'
 import { SaktrixUISection } from '../Component/Ourbrand';
-import { SaktrixIntro } from '../Component/OurUi';
-
 
 export const Home = () => {
   const navigate = useNavigate();
@@ -302,6 +298,7 @@ export const Home = () => {
         </button>
       </div>
   </section>
+  
 
 </>
 

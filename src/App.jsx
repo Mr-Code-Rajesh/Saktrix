@@ -16,6 +16,7 @@ import { AboutLayout } from './Layout/AboutLayout'
 import { Services } from './Pages/Services'
 // import {Thankyou } from './pages/Thankyou';
 import Thanks from './Component/Thanks'
+import TeamSection from './Component/Teamsection'
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Route index element={<Home/>}/>
         <Route path='about' element={<AboutLayout/>}>
            <Route path='skills' element={<Skills/>}/>
+           <Route path='team' element={<TeamSection/>} />
         </Route>
         <Route path='project' element={<Project/>}/>
         <Route path='services' element={<Services/>}/>

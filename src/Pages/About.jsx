@@ -18,7 +18,7 @@ export const About = () => {
                 About <span className="text-pink-500 dark:text-pink-400">Saktrix</span>
               </h1>
               <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto leading-relaxed">
-                Founded by Rajesh, Saktrix blends technology, creativity, and smart research to empower future-ready businesses.
+                Founded by Rajesh & Devarajan, Saktrix blends technology, creativity, and smart research to empower future-ready businesses.
               </p>
             </div>
 

@@ -62,6 +62,9 @@ export const Navbar = () => {
           <div className="absolute lg:top-12 top-4 lg:left-0 left-20 z-50 bg-white text-black w-44 rounded-lg shadow-lg flex flex-col p-3 dark:bg-gray-900 dark:text-white">
             <button onClick={() => navigate('/about/skills')} className="hover:bg-gray-100 dark:hover:bg-gray-700 rounded p-2 text-left">
             About me</button>
+
+            <button onClick={() => navigate('/about/team')} className="hover:bg-gray-100 dark:hover:bg-gray-700 rounded p-2 text-left">
+            Tech Visionaries</button>
           </div>
         )}
       </li>

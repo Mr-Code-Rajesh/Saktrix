@@ -200,12 +200,18 @@ export const Skills = () => {
         <div className="bg-white/70 dark:bg-white/5 p-6 rounded-xl backdrop-blur-md shadow-xl text-black dark:text-white">
           <h3 className="text-xl font-bold mb-2">Research Executive</h3>
           <p>Zinnov Consulting Pvt Ltd (May 2023 – Present)</p>
-          <p className="mt-2 text-gray-700 dark:text-gray-300">🏆 Awarded <span className="font-semibold text-pink-500">Dashing Debut Award</span> at Zinnov for taking new initiatives and demonstrating smart work.</p>
+          <p className="mt-2 text-gray-700 dark:text-gray-300">🏆 Awarded <span className="font-semibold text-pink-500">Dashing Debut Award (2024)</span> at Zinnov for taking new initiatives and demonstrating smart work.</p>
+          <p className="mt-2 text-gray-700 dark:text-gray-300 max-w-4xl">
+          🏆 Awarded <span className="font-semibold text-pink-500">Extra Mile Award (2025)</span> at Zinnov for independently 
+          creating a PPT-based system to develop agents for real-time data validation, 
+          managing my team, and efficiently handling large-scale requests from top 
+          companies such as Accenture and Genpact & etc.
+          </p>
         </div>
         <div className="bg-white/70 dark:bg-white/5 p-6 rounded-xl backdrop-blur-md shadow-xl text-black dark:text-white">
           <h3 className="text-xl font-bold mb-2">College Achievements</h3>
           <p>Sri Sankara Arts and Science College</p>
-          <p className="mt-2 text-gray-700 dark:text-gray-300">🏆 Received <span className="font-semibold text-pink-500">Golden Gates Award</span> and <span className="font-semibold text-pink-500">Comfete Award</span> for creating UI designs for college events along with tech friends group.</p>
+          <p className="mt-2 text-gray-700 dark:text-gray-300">🏆 Received <span className="font-semibold text-pink-500">Golden Gates Award</span> and <span className="font-semibold text-pink-500">Comfete Award</span> and <span className="font-semibold text-pink-500">Tech Blast Award</span> for creating UI designs for college events along with tech friends group.</p>
         </div>
       </div>
     </div>
