@@ -22,10 +22,10 @@ export const Home = () => {
 
   {/* Floating Particles */}
   <div className="absolute inset-0 z-0 overflow-hidden">
-    {[...Array(30)].map((_, i) => (
+    {[...Array(40)].map((_, i) => (
       <div
         key={i}
-        className="absolute bg-black/10 dark:bg-white/10 rounded-full"
+        className="absolute bg-black/20 dark:bg-white/20 rounded-full"
         style={{
           width: `${Math.random() * 6 + 2}px`,
           height: `${Math.random() * 6 + 2}px`,
