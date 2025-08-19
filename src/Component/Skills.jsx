@@ -19,7 +19,7 @@ import css01 from '../assets/Certificates/css01.jpg'
 import css02 from '../assets/Certificates/css02.png'
 import html01 from '../assets/Certificates/html01.jpg'
 import html02 from '../assets/Certificates/html02.png'
-import intership from '../assets/Certificates/intership.png'
+import ed from '../assets/Certificates/ed.png'
 import js01 from '../assets/Certificates/js01.jpg'
 import js02 from '../assets/Certificates/js02.png'
 import react01 from '../assets/Certificates/react01.png'
@@ -68,7 +68,7 @@ const skills = [
 ];
 
 const certificates = [
-  css01,css02,html01,html02,intership,js01,js02,react01,web01
+  css01,css02,html01,html02,ed,js01,js02,react01,web01
 ];
 
 const Badge =[
