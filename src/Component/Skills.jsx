@@ -23,8 +23,7 @@ import HtmlCode360 from '../assets/Certificates/Htmlcode360.png'
 import jsCode360 from '../assets/Certificates/jscode360.png'
 import intership from '../assets/Certificates/intership.png'
 import ReactJS from '../assets/Certificates/React.png'
-// import Java from '../assets/Certificates/java.png'
-// import Award from '../assets/Certificates/Award.png'
+
 
 import Css_Achieve from '../assets/Badge/Css_achiever.png'
 import Css_Achieve02 from '../assets/Badge/Css_achiever02.png'
