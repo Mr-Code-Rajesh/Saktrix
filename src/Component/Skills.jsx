@@ -1,5 +1,5 @@
-import React from 'react';
-import { motion } from 'framer-motion';
+import {useState} from 'react';
+import { motion,AnimatePresence } from 'framer-motion';
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaGitAlt, FaGithub, FaBootstrap, FaPython, FaFileExcel, FaFilePowerpoint } from 'react-icons/fa';
 import { SiTailwindcss, SiOpenai } from 'react-icons/si';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -11,32 +11,45 @@ import iamge from '../assets/bg/home1.png'
 import { IoMdDownload } from "react-icons/io";
 import { TbMailDown } from "react-icons/tb";
 import { HiReceiptRefund } from "react-icons/hi";
+import { MdCancel } from "react-icons/md";
+
+
+// Certificates
+import css01 from '../assets/Certificates/css01.jpg'
+import css02 from '../assets/Certificates/css02.png'
+import html01 from '../assets/Certificates/html01.jpg'
+import html02 from '../assets/Certificates/html02.png'
+import intership from '../assets/Certificates/intership.png'
+import js01 from '../assets/Certificates/js01.jpg'
+import js02 from '../assets/Certificates/js02.png'
+import react01 from '../assets/Certificates/react01.png'
+import web01 from '../assets/Certificates/web01.jpg'
 
 
 
-import htmlCourse from '../assets/Certificates/HTML_course.jpg'
-import CssCourse from '../assets/Certificates/CSS_course.jpg'
-import Webcouse from '../assets/Certificates/Web_course.jpg'
-import JsCourse from '../assets/Certificates/js_course.jpg' 
-import CssCode360 from '../assets/Certificates/csscode360.png'
-import HtmlCode360 from '../assets/Certificates/Htmlcode360.png'
-import jsCode360 from '../assets/Certificates/jscode360.png'
-// import intership from '../assets/Certificates/intership.png'
-import ReactJS from '../assets/Certificates/React.png'
+// Badges
+import cssa from '../assets/Badge/cssa.png'
+import cssa2 from '../assets/Badge/cssa2.png'
+import cssa3 from '../assets/Badge/cssa3.png'
+import cssa4 from '../assets/Badge/cssa4.png'
+import htmla from '../assets/Badge/htmla.png'
+import htmla2 from '../assets/Badge/htmla2.png'
+import jsa from '../assets/Badge/jsa.png'
+import jsa2 from '../assets/Badge/jsa2.png'
+import jsa3 from '../assets/Badge/jsa3.png'
+import reacta from '../assets/Badge/reacta.png'
+import reacta2 from '../assets/Badge/reacta2.png'
+import reacta3 from '../assets/Badge/reacta3.png'
 
 
-import Css_Achieve from '../assets/Badge/Css_achiever.png'
-import Css_Achieve02 from '../assets/Badge/Css_achiever02.png'
-import js_Achiever from '../assets/Badge/js_achiever.png'
-import Css_special from '../assets/Badge/Css_specialist.png'
-import Js_special from '../assets/Badge/js_specialist.png'
-import Html_special from '../assets/Badge/Html_Specialist.png'
-import Html_Master from '../assets/Badge/HtmlMaster.png'
-import Css_Master from '../assets/Badge/Css_Master.png'
-import Js_Master from '../assets/Badge/js_master.png'
-import React_Master from '../assets/Badge/React_Master.png'
-import React_sp from '../assets/Badge/react_sp.png'
-import React_achieve from '../assets/Badge/react_achieve.png'
+
+// Awards
+import award01 from '../assets/Award/award01.png'
+import award02 from '../assets/Award/award02.jpg'
+import clg1 from '../assets/Award/clg1.jpg'
+import clg2 from '../assets/Award/clg2.jpg'
+import clg3 from '../assets/Award/clg3.jpg' 
+
 
 
 const skills = [
@@ -55,32 +68,35 @@ const skills = [
 ];
 
 const certificates = [
-  htmlCourse,
-  CssCourse,
-  JsCourse,
-  Webcouse,
-  HtmlCode360,
-  CssCode360,
-  jsCode360,
-  ReactJS,
+  css01,css02,html01,html02,intership,js01,js02,react01,web01
 ];
 
 const Badge =[
-  Css_Achieve,
-  Css_Achieve02,
-  js_Achiever,
-  Css_special,
-  Js_special,
-  Html_special,
-  Html_Master,
-  Css_Master,
-  Js_Master,
-  React_Master,
-  React_sp,
-  React_achieve,
+  cssa,cssa2,cssa3,cssa4,htmla,htmla2,jsa,jsa2,jsa3,reacta,reacta2,reacta3
 ]
 
+const allImages =[
+  award01,award02,clg1,clg2,clg3
+];
+
+// Stagger animation settings
+const containerVariants = {
+  hidden: { opacity: 0 },
+  show: {
+    opacity: 1,
+    transition: { staggerChildren: 0.15 },
+  },
+};
+
+const itemVariants = {
+  hidden: { opacity: 0, y: 30 },
+  show: { opacity: 1, y: 0, transition: { duration: 0.5, ease: "easeOut" } },
+};
+
+
 export const Skills = () => {
+  const [selectedImage, setSelectedImage] = useState(null);
+
   return (
     <section className="min-h-screen w-full bg-gradient-to-br from-white via-gray-100 to-gray-200 dark:from-black dark:via-gray-900 dark:to-gray-950 text-black dark:text-white px-6 py-28">
 
@@ -331,6 +347,80 @@ export const Skills = () => {
 </Swiper>
 
       </div>
+
+    {/* // award section  */}
+      <section className="min-h-screen rounded-xl bg-white/30 dark:bg-gradient-to-br dark:from-gray-900 dark:via-gray-800 dark:to-black flex flex-col items-center p-6 mt-10">
+      <h2 className="text-3xl md:text-4xl font-bold text-center mb-6 text-gray-800 dark:text-gray-100">
+        🏅 Awards 🏅
+      </h2>
+
+      <motion.div
+        className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-6xl w-full"
+        variants={containerVariants}
+        initial="hidden"
+        animate="show"
+      >
+        {allImages.map((img, index) => (
+          <motion.div
+            key={index}
+            className="relative overflow-hidden rounded-2xl shadow-lg cursor-pointer group"
+            variants={itemVariants}
+            whileHover={{ scale: 1.05 }}
+            transition={{ type: "spring", stiffness: 200, damping: 15 }}
+            onClick={() => setSelectedImage(img)}
+          >
+            <img
+              src={img}
+              alt={`gallery-${index}`}
+              className="w-full h-60 object-cover rounded-2xl group-hover:brightness-75 transition duration-300 backdrop:blur-2xl"
+            />
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileHover={{ opacity: 1 }}
+              className="absolute inset-0 bg-black/50 flex items-center justify-center text-white text-lg font-semibold"
+            >
+              🏅Award🏅
+            </motion.div>
+          </motion.div>
+        ))}
+      </motion.div>
+
+      {/* Modal Popup */}
+      <AnimatePresence>
+        {selectedImage && (
+          <motion.div
+            className="fixed inset-0 bg-black/70 flex items-center justify-center z-50 p-4"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            onClick={() => setSelectedImage(null)}
+          >
+            <motion.div
+              className="relative"
+              initial={{ scale: 0.7, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              exit={{ scale: 0.7, opacity: 0 }}
+              transition={{ type: "spring", stiffness: 200, damping: 20 }}
+              onClick={(e) => e.stopPropagation()}
+            >
+              {/* Close Button */}
+              <button
+                onClick={() => setSelectedImage(null)}
+                className="absolute top-3 right-3 bg-black/60 hover:bg-black/80 text-white p-2 rounded-full transition"
+              >
+                <span className=' text-red-500 text-xl'> <MdCancel /> </span>
+              </button>
+
+              <img
+                src={selectedImage}
+                alt="Selected"
+                className="max-h-[80vh] max-w-[90vw] rounded-2xl shadow-2xl"
+              />
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </section>
 
     </section>
   );
