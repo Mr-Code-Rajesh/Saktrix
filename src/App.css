@@ -24,7 +24,7 @@ body{
 
 @keyframes gradient-border {
   0% {
-    background-position: 0% 50%;
+    background-position: 0% 49%;
   }
   100% {
     background-position: 100% 50%;
