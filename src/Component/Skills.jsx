@@ -21,7 +21,7 @@ import JsCourse from '../assets/Certificates/js_course.jpg'
 import CssCode360 from '../assets/Certificates/csscode360.png'
 import HtmlCode360 from '../assets/Certificates/Htmlcode360.png'
 import jsCode360 from '../assets/Certificates/jscode360.png'
-import intership from '../assets/Certificates/intership.png'
+// import intership from '../assets/Certificates/intership.png'
 import ReactJS from '../assets/Certificates/React.png'
 
 
@@ -62,7 +62,6 @@ const certificates = [
   HtmlCode360,
   CssCode360,
   jsCode360,
-  intership,
   ReactJS,
 ];
 
