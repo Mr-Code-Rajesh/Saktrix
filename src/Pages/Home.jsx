@@ -98,45 +98,45 @@ export const Home = () => {
 
 
  {/* about section  */}
- <section className="relative w-full py-20 bg-white/70 dark:bg-gradient-to-b dark:from-gray-950 dark:via-gray-900 to-black px-6 flex items-center justify-center">
+<section className="relative w-full py-20 overflow-hidden bg-white/70 dark:bg-gradient-to-b dark:from-gray-950 dark:via-gray-900 to-black px-6 flex items-center justify-center">
       
-      {/* Decorative Background Glow */}
-      <div className="absolute top-1/3 left-1/2 w-[400px] h-[400px] bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 opacity-20 blur-3xl rounded-full animate-spin-slow z-0"></div>
+  {/* Decorative Background Glow */}
+  <div className="absolute top-1/3 left-1/2 -translate-x-1/2 w-[250px] h-[250px] sm:w-[300px] sm:h-[300px] md:w-[400px] md:h-[400px] bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 opacity-20 blur-3xl rounded-full animate-spin-slow z-0"></div>
 
-      {/* About Content */}
-      <div className="relative z-10 max-w-5xl mx-auto text-center space-y-8">
-        <h2 className="text-4xl md:text-5xl font-bold dark:text-white">
-          About <span className="text-transparent bg-clip-text saktrix-aurora-text">Saktrix</span>
-        </h2>
-        <p className="dark:text-gray-300 text-gray-500 max-w-3xl mx-auto text-lg">
-          At Saktrix, we believe in merging human creativity with artificial intelligence to create smarter, faster, and more efficient businesses. 
-          Our mission is to empower startups and enterprises to reach new heights with innovative AI-powered solutions, stunning designs, and powerful digital strategies.
+  {/* About Content */}
+  <div className="relative z-10 max-w-5xl mx-auto text-center space-y-8">
+    <h2 className="text-4xl md:text-5xl font-bold dark:text-white">
+      About <span className="text-transparent bg-clip-text saktrix-aurora-text">Saktrix</span>
+    </h2>
+    <p className="dark:text-gray-300 text-gray-500 max-w-3xl mx-auto text-lg">
+      At Saktrix, we believe in merging human creativity with artificial intelligence to create smarter, faster, and more efficient businesses. 
+      Our mission is to empower startups and enterprises to reach new heights with innovative AI-powered solutions, stunning designs, and powerful digital strategies.
+    </p>
+    <div className="flex flex-wrap justify-center gap-6 mt-8">
+      <div data-aos="fade-up" className="p-6 dark:bg-white/5 border bg-white/70 border-black/20 dark:border-white/10 rounded-2xl w-64 hover:scale-105 transition duration-300">
+        <h3 className="text-xl font-semibold dark:text-white mb-2">⚡ Innovation</h3>
+        <p className="dark:text-gray-400 text-gray-500 text-sm">
+          We bring cutting-edge ideas and technology together to revolutionize industries.
         </p>
-        <div className="flex flex-wrap justify-center gap-6 mt-8">
-          <div  data-aos="fade-up" className="p-6 dark:bg-white/5 border bg-white/70 border-black/20 dark:border-white/10 rounded-2xl w-64 hover:scale-105 transition duration-300">
-            <h3 className="text-xl font-semibold dark:text-white mb-2">⚡ Innovation</h3>
-            <p className="dark:text-gray-400 text-gray-500 text-sm">
-              We bring cutting-edge ideas and technology together to revolutionize industries.
-            </p>
-          </div>
-
-          <div  data-aos="fade-up" data-aos-delay="100" className="p-6 dark:bg-white/5 border bg-white/70 border-black/20 dark:border-white/10 rounded-2xl w-64 hover:scale-105 transition duration-300">
-            <h3 className="text-xl font-semibold dark:text-white mb-2">🚀 Growth</h3>
-            <p className="dark:text-gray-400 text-gray-500 text-sm">
-              Our AI solutions help businesses scale smarter and grow faster in competitive markets.
-            </p>
-          </div>
-
-          <div data-aos="fade-up" data-aos-delay="200" className="p-6 dark:bg-white/5  bg-white/70 border-black/20 border dark:border-white/10 rounded-2xl w-64 hover:scale-105 transition duration-300">
-            <h3 className="text-xl font-semibold dark:text-white mb-2">🤝 Trust</h3>
-            <p className="dark:text-gray-400 text-gray-500 text-sm">
-              Building lasting relationships with our clients through transparency, integrity, and results.
-            </p>
-          </div>
-
-        </div>
       </div>
-    </section>
+
+      <div data-aos="fade-up" data-aos-delay="100" className="p-6 dark:bg-white/5 border bg-white/70 border-black/20 dark:border-white/10 rounded-2xl w-64 hover:scale-105 transition duration-300">
+        <h3 className="text-xl font-semibold dark:text-white mb-2">🚀 Growth</h3>
+        <p className="dark:text-gray-400 text-gray-500 text-sm">
+          Our AI solutions help businesses scale smarter and grow faster in competitive markets.
+        </p>
+      </div>
+
+      <div data-aos="fade-up" data-aos-delay="200" className="p-6 dark:bg-white/5 bg-white/70 border-black/20 border dark:border-white/10 rounded-2xl w-64 hover:scale-105 transition duration-300">
+        <h3 className="text-xl font-semibold dark:text-white mb-2">🤝 Trust</h3>
+        <p className="dark:text-gray-400 text-gray-500 text-sm">
+          Building lasting relationships with our clients through transparency, integrity, and results.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 
 

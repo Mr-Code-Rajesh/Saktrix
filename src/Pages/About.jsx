@@ -1,7 +1,7 @@
 import React from 'react';
 import { useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import rajeshImg from '../assets/bg/home2.png';
+import rajeshImg from '../assets/bg/aboutimg.png';
 
 export const About = () => {
   const location = useLocation();

@@ -7,11 +7,14 @@ import { Pagination, Autoplay } from 'swiper/modules'; // ✅ Must import Autopl
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/autoplay'; // 
-import iamge from '../assets/bg/home1.png'
+// import iamge from '../assets/bg/home1.png'
 import { IoMdDownload } from "react-icons/io";
 import { TbMailDown } from "react-icons/tb";
 import { HiReceiptRefund } from "react-icons/hi";
 import { MdCancel } from "react-icons/md";
+
+// Profile picture 
+import rajesh from '../assets/Award/aime.png'
 
 
 // Certificates
@@ -113,7 +116,7 @@ export const Skills = () => {
     </p>
     <div className="mt-8 flex justify-center gap-4">
       <a
-        href="https://drive.google.com/uc?export=download&id=1OEw-4Gxkk7UtT2SJqQdBYdT7A79oy9ek"
+      href='https://drive.google.com/uc?export=download&id=1ZsyPn4BSSt0lxj3jGav8am5HORrTZlfG' 
         download
         className=" flex items-center gap-3 px-4 py-3 rounded-lg bg-gradient-to-r from-pink-500 to-purple-600 hover:scale-105 transition-all text-white font-semibold"
       >
@@ -121,7 +124,7 @@ export const Skills = () => {
       </a>
 
         <a
-        href="https://drive.google.com/uc?export=download&id=1p09uj9-_xBR2G3sYxN0e2VQHfDfdCz9y"
+        href='https://drive.google.com/uc?export=download&id=1BMJQ8SNJ7U8qZ-Zsy9xCfWCTwzSHO8j_'
         download
         className=" flex items-center gap-3 px-3 py-3 rounded-lg bg-gradient-to-r from-pink-500 to-purple-600 hover:scale-105 transition-all text-white font-semibold"
       >
@@ -150,11 +153,11 @@ export const Skills = () => {
         <p><span className="font-semibold">Languages:</span> English, Tamil</p>
       </div>
 
-      <div className="flex justify-center">
+      <div className="flex justify-center border-2 border-black/15 dark:border-white  rounded-2xl p-2 hover:p-0 transition-all duration-300">
         <img 
-          src={iamge} 
+          src={rajesh} 
           alt="Rajesh P" 
-          className="w-64 h-72 object-cover rounded-2xl shadow-lg hover:scale-105 transition-all duration-300"
+          className=" w-80 h-[350px]  object-cover border rounded-2xl shadow-lg transition-all duration-300"
         />
       </div>
     </div>
